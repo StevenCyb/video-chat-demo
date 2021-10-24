@@ -3,6 +3,11 @@ A simple video chat implementation using NodeJS.
 Based on https://www.youtube.com/watch?v=DvlyzDZDEq4
 
 # How to run
+Install peer:
+```
+npm i -g peer
+```
+
 Run the following command in terminal:
 ```
 peerjs --port 3001
