@@ -1,0 +1,30 @@
+{
+  "name": "video-chat-demo",
+  "version": "1.0.0",
+  "description": "A simple video chat implementation using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenCyb/video-chat-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/StevenCyb/video-chat-demo/issues"
+  },
+  "homepage": "https://github.com/StevenCyb/video-chat-demo#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "peer": "^0.6.1",
+    "socket.io": "^4.3.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
